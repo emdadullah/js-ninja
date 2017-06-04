@@ -19,3 +19,11 @@ M = (function(){
 
 	return publicFunc;
 })();
+
+
+
+/* 3. Chainning pattern */
+
+$('body').css()
+		 .find('.main')
+		 .text("This is main block");
